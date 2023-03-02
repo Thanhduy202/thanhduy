@@ -1,0 +1,26 @@
+.no-arrow {
+  -moz-appearance: textfield;
+  width: 100%;
+}
+.no-arrow::-webkit-inner-spin-button {
+  display: none;
+}
+.no-arrow::-webkit-outer-spin-button,
+.no-arrow::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.phone-no {
+    width: 100%;
+    margin-top: 1.5em;
+}
+button {
+    background-color: green;
+    color: white;
+    margin-top: 1.5em;
+    width: 100%;
+    border: none;
+}
+body{
+  background-color: rgb(144, 246, 246);
+}
