@@ -1,64 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MindX</title>
-    <link rel="stylesheet" href="./form.css">
+    <title>MidX baitap2</title>
+    <link rel="stylesheet" href="./baiitap2.css">
+    <script src="https://kit.fontawesome.com/d0bda560e3.js" crossorigin="anonymous"></script>
 </head>
-<body style="width: 40%">
-    <header>
-        <h2 style="text-align: center;">Student Registerration Form</h2>
-        <hr>
-    </header><main>
-    <div>
-        <p>FistName:</p>
-        <input type="text" placeholder="FistName" style="width: 100%">
-        <p>Middlename:</p>
-        <input type="text" placeholder="Middlename" style="width: 100%">
-        <p>Lastname:</p>
-        <input type="text" placeholder="Lastname" style="width: 100%">
-    </div>  
-    <div>
-        <p>Gender:</p>
-        <input type="radio" name="color" id="c1"> Male
-        <input type="radio" name="color" id="c2"> Female
-        <input type="radio" name="color" id="c3"> Other
-    </div> 
-    <div>
-        <p style="margin-bottom: 10px;">Phone:</p>
-        <input class="no-arrow" type="number" id="phone" name="phone">
-    </div>
-    <div>
-        <input class="phone-no" placeholder="phone no" style="width: 100%">
-    </div>
-    <div>
-        <p>Current address</p>
-        <textarea type="text" style="width: 100%"> </textarea>
-    </div>
-    <div>
-        <p>Email</p>
-        <input type="email" style="width: 100%">
-    </div>
-    <div>
-        <p>Password</p>
-        <input type="password" style="width: 100%">
-    <div>
-        <p>Re-type password</p>
-        <input type="password"style="width: 100%"> 
-    </div>
-    <div>
-        <p>Re-type Password</p>
-        <input type="Password"style="width: 100%"> 
-    </div>
-    <div>
-        <button type="button"onclick="alert('Register')">Register</button>
-    </div>
 
+<body style="width: 90%;">
+    <div class="container">
+        <div class="item">
+            <div>
+                <img class="avatar" src="./duy.png" />
+            </div>
+            <div>
+                <div class="name">Tran Thanh Duy
+                    <div>
+                        <p>Thiet Ke Sang Tao </p>
+                    </div>
+                </div>
+                <div>
+                    <h6><i class="icon-left fa-solid fa-user"></i>ABOUT ME</h6>
+                    <p class="fontSize marginBot textAlign">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing ekit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <p class="fontSize marginBot textAlign" class="marginBot textAlign">
+                        Ut enmin ad minim veniam, quis nostrud exercitaion ullamco laboris nasi
+                        aliquip ex ea commodo consequat. Duisaute irure dolor in reprehenderot in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </p>
+                </div>
+                <div>
+                    <h6><i class="icon-left fa-solid fa-crown"></i>CONTACT ME</h6>
+                    <div class="marginBot">
+                        <p  class="fontSize marginBot textAlign" class="textAlign"> <i class="icon-left fa-solid fa-location-dot"></i>Valley Obstetrics & Gynecology 558
+                            North 500 West</p>
+                    </div>
+                    <div class="marginBot">
+                        <p class="fontSize marginBot textAlign" class="textAlign"> <i class="icon-left fa-solid fa-earth-americas"></i>alaminmir.com</p>
+                        <P class="fontSize marginBot textAlign" class="textAlign">alaminmir@gmail.com</P>
+                    </div>
+                    <div class="marginBot">
+                        <p class="fontSize marginBot textAlign" class="textAlign"><i class="icon-left fa-solid fa-mobile-button"></i>(801) 374-1801,(801) 374-1800</p>
+                        <P class="fontSize marginBot textAlign" class="textAlign">(081) 374-1803</P>
+                    </div>
+                </div>
+                <div>
+                    <h6> <i class="icon-left fa-solid fa-crown"></i>MY SKILLS</h6>
+                    <div class="marginBot">
+                        <p  class="fontSize marginBot textAlign" class="textAlign"> <i class="icon-left fa-regular fa-images"></i>Adobe Photoshop</p>
+                        <div class="w3-light-grey w3-round-xlarge">
+                            <div class="w3-container w3-blue w3-round-xlarge" id="photo" style="width:50%"></div>
+                        </div>
+                    </div>
+                    <div>
 
-</main>
+                    </div>
+                    <div class="marginBot">
+                        <p class="fontSize marginBot textAlign" class="textAlign"> <i class="fa-regular fa-file"></i>Adobe Illustrator</p>
+                        <div class="w3-light-grey w3-round-xlarge">
+                            <div class="w3-container w3-blue w3-round-xlarge" id="photo" style="width:75%"></div>
+                        </div>
+                    </div>
+                    <div class="marginBot">
+                        <p class="fontSize marginBot textAlign"  class="textAlign"> <i class="fa-brands fa-android"></i>Sndroid Development</p>
+                        <div class="w3-light-grey w3-round-xlarge">
+                            <div class="w3-container w3-blue w3-round-xlarge" id="photo" style="width:25%"></div>
+                        </div>
+                    </div>
+                    <div class="marginBot">
+                        <p class="fontSize marginBot textAlign" class="textAlign"> <i class="fa-solid fa-earth-americas"></i>Web Design</p>
+                        <div class="w3-light-grey w3-round-xlarge">
+                            <div class="w3-container w3-blue w3-round-xlarge" id="photo" style="width:97%"></div>
+                        </div>
+                    </div>
+                    <div class="marginBot">
+                        <p class="fontSize marginBot textAlign" class="textAlign"> <i class="fa-solid fa-bars"></i>Print Design</p>
+                        <div class="w3-light-grey w3-round-xlarge">
+                            <div class="w3-container w3-blue w3-round-xlarge" id="photo" style="width:10%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-right">
+            <div>
+                <div class="icon-right">
+                    <div class="icon-item">
+                        <i class="fa-solid fa-suitcase"></i>
+                    </div>
+                    <p style="margin-left: 10px; font-size: 16px"><b>WORK EXPERINCE</b></p>
+                </div>
+                <p class="noidung"><b>CREATIVE DESIGNER</b></p>
+                <div class="noidung color-content-faq" id="address">
+                    <i class="icon-right-small fa-solid fa-suitcase"></i>Google Inc USA
+                    <i class="icon-right-small fa-solid fa-suitcase"></i>20 Sep 2010-Current
+                </div>
+                <p class="noidung">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nist ut aliquip ex ea commodo consequat.</p>
+                <p class="noidung"><b>ANDROID DEVELOPER</b></p>
+                <div class="noidung color-content-faq" id="address">
+                    <i class="icon-right-small fa-solid fa-suitcase"></i>Google Inc USA
+                    <i class="icon-right-small fa-solid fa-suitcase"></i>20 Sep 2010-Current
+                </div>
+                <p class="noidung">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                    fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum</p>
+                <p class="noidung"><b>SENIOR ARTIST & DIRECTOR</b></p>
+                <div class="noidung color-content-faq" id="address">
+                    <i class="icon-right-small fa-solid fa-suitcase"></i>Google Inc USA
+                    <i class="icon-right-small fa-solid fa-suitcase"></i>20 Sep 2010-Current
+                </div>
+                <p class="noidung">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                    consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt</p>
+            </div>
+            <div>
+                <div class="icon-right">
+                    <div class="icon-item">
+                        <i class="fa-solid fa-suitcase"></i>
+                    </div>
+                    <p style="margin-left: 10px; font-size: 16px"><b>WORK EXPERINCE</b></p>
+                </div>
+                <p class="noidung"><b>CREATIVE DESIGNER</b></p>
+                <div class="noidung color-content-faq" id="address">
+                    <i class="icon-right-small fa-solid fa-suitcase"></i>Google Inc USA
+                    <i class="icon-right-small fa-solid fa-suitcase"></i>20 Sep 2010-Current
+                </div>
+                <p class="noidung">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nist ut aliquip ex ea commodo consequat.</p>
+                <p class="noidung"><b>ANDROID DEVELOPER</b></p>
+                <div class="noidung color-content-faq" id="address">
+                    <i class="icon-right-small fa-solid fa-suitcase"></i>Google Inc USA
+                    <i class="icon-right-small fa-solid fa-suitcase"></i>20 Sep 2010-Current
+                </div>
+                <p class="noidung">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                    fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum</p>
+                <p class="noidung"><b>SENIOR ARTIST & DIRECTOR</b></p>
+                <div class="noidung color-content-faq" id="address">
+                    <i class="icon-right-small fa-solid fa-suitcase"></i>Google Inc USA
+                    <i class="icon-right-small fa-solid fa-suitcase"></i>20 Sep 2010-Current
+                </div>
+                <p class="color-content noidung">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+                    fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt</p>
+            </div>
+            <div>
+                <div class="icon-right">
+                    <div class="icon-item">
+                        <i class="fa-solid fa-globe"></i>
+                    </div>
+                    <p style="margin-left: 10px; font-size: 16px"><b>LANGUAGES</b></p>
+                </div>
+                <div class="flag">
+                    <div class="english">
+                        <img src="https://vuongquocanh.com/wp-content/uploads/2018/04/la-co-vuong-quoc-anh.jpg" alt=""
+                            width="110" height="70"> <br>
+                        <p><b>ENGLISH</b></p>
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="bangali">
+                        <img src="https://cdn11.bigcommerce.com/s-ey7tq/images/stencil/1280x1280/products/3070/18895/bangladesh-flag__64901.1639690362.jpg?c=2"
+                            alt="" width="110" height="70"> <br>
+                        <p><b>BANGALI</b></p>
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="german">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Flag_of_Germany_%283-2_aspect_ratio%29.svg/220px-Flag_of_Germany_%283-2_aspect_ratio%29.svg.png"
+                            alt="" width="110" height="70"> <br>
+                        <p><b>GERMAN</b></p>
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 </body>
+
 </html>
-0 comments on commit ad0fb56
-@Thanhduy202
